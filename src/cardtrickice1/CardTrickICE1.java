@@ -13,6 +13,8 @@ package cardtrickice1;
  * @author Kishorkumar_Gondaliya
  * ID_number: 991506516
  */
+//Kishorkumar_Gondaliya 
+//ID_number: 991506516
 import java.util.Scanner;
 
 public class CardTrickICE1 {
