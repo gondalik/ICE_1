@@ -35,14 +35,18 @@ public class CardTrickICE1 {
         System.out.println("\n");
 
         Card[] magicHand = new Card[7];
-
+        
+        Card luckeyCard = new Card();
+        luckeyCard.setValue(5);
+        luckeyCard.setSuits("diamonds");
+        
         for (int i = 0; i < magicHand.length; i++) {
             Card c1 = new Card();
             c1.setValue(c1.cardNumberGenerator());// use a method to generate random *13
             c1.setSuits(c1.suitGenerator());// random method suit
             magicHand[i] = c1;
         }
-
+        
         for (int i = 0; i < magicHand.length; i++) {
             System.out.println("Number is: " + magicHand[i].getValue() + " and suit is " + magicHand[i].getSuits());
         }
