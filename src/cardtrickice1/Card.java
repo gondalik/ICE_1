@@ -9,7 +9,8 @@ package cardtrickice1;
  * define card value and suits
  *
  *
- * @author sivagamasrinivasan
+ * @author Kishorkumar_Gondaliya
+ * ID_number: 991506516
  */
 public class Card {
 

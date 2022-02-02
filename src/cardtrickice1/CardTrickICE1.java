@@ -10,7 +10,8 @@ package cardtrickice1;
  * card input from user suit,number step 3: user card is in the array 'card is
  * found'
  *
- * @author sivagamasrinivasan
+ * @author Kishorkumar_Gondaliya
+ * ID_number: 991506516
  */
 import java.util.Scanner;
 
