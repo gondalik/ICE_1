@@ -5,17 +5,18 @@
  */
 package cardtrickice1;
 
-/** define card value and suits
- * 
+/**
+ * define card value and suits
+ *
  *
  * @author sivagamasrinivasan
  */
-public class Card 
-{
+public class Card {
+
     private int value;
     private String suits; //encapsulation
     //constant
-    public static final String [] SUITS = { "diamonds","clubs","spades","hearts"};
+    public static final String[] SUITS = {"diamonds", "clubs", "spades", "hearts"};
 
     /**
      * @return the value
@@ -44,8 +45,17 @@ public class Card
     public void setSuits(String suits) {
         this.suits = suits;
     }
-   //number
-    
+
+    //method fornumber
+    public String suitGenerator() {
+        double suit = (int) (Math.random() * 4);
+        return SUITS[(int) Math.floor(suit)];
+    }
+
     //method for suits
-    
+    public int cardNumberGenerator() {
+        double number = (1 + Math.random() * 13);
+        return (int) number;
+    }
+
 }
